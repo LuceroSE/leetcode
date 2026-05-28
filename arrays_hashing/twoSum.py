@@ -9,8 +9,5 @@ class Solution:
             else:
                 remainder = target - nums[i]
                 needed[remainder] = i
+# Time complexity: linear
 
-
-
-test = Solution()
-print(test.twoSum([-3,4,3,90], 0))
