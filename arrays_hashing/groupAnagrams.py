@@ -16,5 +16,3 @@ class Solution:
 
 #Time complexity: O(n * m + 26) meaning O(n * m)
 #Space complexity: O(n)
-obj = Solution()
-print(obj.groupAnagrams(["act","pots","tops","cat","stop","hat"]))   
