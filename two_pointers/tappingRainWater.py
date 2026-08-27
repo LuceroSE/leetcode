@@ -22,7 +22,11 @@ class Solution:
         return water
             
 
+#Time complexity O(n)
+#Space complexity O(1)
+"""the comparing of indices height works by
 
+Don’t worry about my side, I’m tall enough to hold the water in. Calculate the water at the next index using the smaller side, because the water can only rise as high as the shorter of the two sides"""
 
 obj = Solution()
 print(obj.trap([0,2,0,3,1,0,1,3,2,1]))
